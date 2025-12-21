@@ -94,7 +94,7 @@ Currently working on **large-scale OCR pipelines, AI governance tools, and reaso
 
 ---
 
-## 📊 GitHub Analytics (Animated)
+## 📊 GitHub Analytics 
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Madhur984&show_icons=true&theme=github_dark&hide_border=true" height="180"/>
@@ -107,7 +107,7 @@ Currently working on **large-scale OCR pipelines, AI governance tools, and reaso
 
 ---
 
-## 🐍 Contribution Snake (Animated)
+## 🐍 Contribution Snake 
 
 <p align="center">
   <img src="https://github.com/Madhur984/Madhur984/blob/output/github-contribution-grid-snake.svg" />
