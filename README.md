@@ -8,7 +8,7 @@
   <a href="https://www.linkedin.com/in/madhur-garg-5419b4244">
     <img src="https://img.shields.io/badge/LinkedIn-Madhur%20Garg-blue?style=for-the-badge&logo=linkedin" />
   </a>
-  <a href="https://portfolio-pi-seven-69.vercel.app">
+  <a href="https://madhur984.vercel.app">
     <img src="https://img.shields.io/badge/Portfolio-Live-green?style=for-the-badge&logo=vercel" />
   </a>
 </p>
