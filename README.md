@@ -94,19 +94,6 @@ Currently working on **large-scale OCR pipelines, AI governance tools, and reaso
 
 ---
 
-## 📊 GitHub Analytics
-
-| Stats | Streak |
-|------|--------|
-| <img src="./assets/stats/github-stats.png" height="180"/> | <img src="./assets/stats/streak.png" height="180"/> |
-
-<br/>
-
-<p align="center">
-  <img src="./assets/stats/top-langs.png" />
-</p>
-
----
 
 ## 🐍 Contribution Snake 
 
