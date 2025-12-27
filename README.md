@@ -107,7 +107,7 @@ Currently working on **large-scale OCR pipelines, AI governance tools, and reaso
 
 📧 **Email:** gmadhur908@gmail.com  
 💼 **LinkedIn:** [Madhur Garg](https://www.linkedin.com/in/madhur-garg-5419b4244)  
-🌐 **Portfolio:** [https://portfolio-pi-seven-69.vercel.app](https://madhur984.vercel.app)  
+🌐 **Portfolio:** [Madhur's Portfolio](https://madhur984.vercel.app)  
 
 ---
 
