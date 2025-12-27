@@ -56,35 +56,6 @@ Currently working on **large-scale OCR pipelines, AI governance tools, and reaso
 
 ---
 
-## 🧑🏻‍💻 Featured Projects
-
-<details>
-  <summary><b>🚀 Click to expand</b></summary>
-
-  <br />
-
-  <p align="center">
-    <a href="https://github.com/Madhur984/BharatVision">
-      <img src="https://github-readme-stats.vercel.app/api/pin/?username=Madhur984&repo=BharatVision&theme=github_dark&border_radius=12" />
-    </a>
-    <a href="https://github.com/Madhur984/Plant_Disease_Detection_System">
-      <img src="https://github-readme-stats.vercel.app/api/pin/?username=Madhur984&repo=Plant_Disease_Detection_System&theme=github_dark&border_radius=12" />
-    </a>
-  </p>
-
-  <p align="center">
-    <a href="https://github.com/Madhur984/goGoalz">
-      <img src="https://github-readme-stats.vercel.app/api/pin/?username=Madhur984&repo=goGoalz&theme=github_dark&border_radius=12" />
-    </a>
-    <a href="https://github.com/Madhur984/Portfolio">
-      <img src="https://github-readme-stats.vercel.app/api/pin/?username=Madhur984&repo=Portfolio&theme=github_dark&border_radius=12" />
-    </a>
-  </p>
-
-</details>
-
----
-
 ## 🏆 Achievements
 
 - 🥇 Smart India Hackathon – **Winner**
