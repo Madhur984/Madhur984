@@ -34,13 +34,11 @@ jobs:
           hide_border: true
           output_path: assets/stats/top-langs.png
 
-      - name: Generate Streak Stats
-        uses: DenverCoder1/github-readme-streak-stats@v1
-        with:
-          username: Madhur984
-          theme: dark
-          hide_border: true
-          output_path: assets/stats/streak.png
+      - name: Download Streak Stats (PNG)
+        run: |
+          mkdir -p assets/stats
+          curl -L "https://streak-stats.demolab.com?user=Madhur984&theme=dark&hide_border=true&format=png" \
+            -o assets/stats/streak.png
 
       - name: Commit images
         run: |
