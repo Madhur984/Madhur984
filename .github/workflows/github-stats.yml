@@ -16,27 +16,21 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Generate GitHub Stats
-        uses: anuraghazra/github-readme-stats@master
-        with:
-          username: Madhur984
-          theme: dark
-          show_icons: true
-          hide_border: true
-          output_path: assets/stats/github-stats.png
+      - name: Create stats directory
+        run: mkdir -p assets/stats
 
-      - name: Generate Top Languages
-        uses: anuraghazra/github-readme-stats@master
-        with:
-          username: Madhur984
-          layout: compact
-          theme: dark
-          hide_border: true
-          output_path: assets/stats/top-langs.png
-
-      - name: Download Streak Stats (PNG)
+      - name: Download GitHub Stats
         run: |
-          mkdir -p assets/stats
+          curl -L "https://github-readme-stats.vercel.app/api?username=Madhur984&show_icons=true&theme=dark&hide_border=true&format=png" \
+            -o assets/stats/github-stats.png
+
+      - name: Download Top Languages
+        run: |
+          curl -L "https://github-readme-stats.vercel.app/api/top-langs/?username=Madhur984&layout=compact&theme=dark&hide_border=true&format=png" \
+            -o assets/stats/top-langs.png
+
+      - name: Download Streak Stats
+        run: |
           curl -L "https://streak-stats.demolab.com?user=Madhur984&theme=dark&hide_border=true&format=png" \
             -o assets/stats/streak.png
 
