@@ -94,17 +94,18 @@ Currently working on **large-scale OCR pipelines, AI governance tools, and reaso
 
 ---
 
-## 📊 GitHub Analytics 
+## 📊 GitHub Analytics
 
+| Stats | Streak |
+|------|--------|
+| ![](https://github-readme-stats.vercel.app/api?username=Madhur984&show_icons=true&theme=dark&hide_border=true&cache_seconds=86400) | ![](https://streak-stats.demolab.com?user=Madhur984&theme=dark&hide_border=true) |
+
+<br/>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Madhur984&show_icons=true&theme=dark&hide_border=true" height="180"/>
-  <img src="https://streak-stats.demolab.com?user=Madhur984&theme=dark&hide_border=true" height="180"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Madhur984&layout=compact&theme=dark&hide_border=true&cache_seconds=86400" />
 </p>
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Madhur984&layout=compact&theme=dark&hide_border=true" />
-</p>
 
 
 ---
