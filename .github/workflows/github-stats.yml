@@ -3,7 +3,7 @@ name: Generate GitHub Stats Images
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 1 * * *"  # daily at 1 AM UTC
+    - cron: "0 1 * * *"
 
 permissions:
   contents: write
@@ -17,7 +17,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Generate GitHub Stats
-        uses: DenverCoder1/github-readme-streak-stats@v1
+        uses: anuraghazra/github-readme-stats@master
         with:
           username: Madhur984
           theme: dark
@@ -35,7 +35,7 @@ jobs:
           output_path: assets/stats/top-langs.png
 
       - name: Generate Streak Stats
-        uses: DenverCoder1/github-readme-streak-stats@master
+        uses: DenverCoder1/github-readme-streak-stats@v1
         with:
           username: Madhur984
           theme: dark
