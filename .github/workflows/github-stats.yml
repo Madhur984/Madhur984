@@ -1,0 +1,51 @@
+name: Generate GitHub Stats Images
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 1 * * *"  # daily at 1 AM UTC
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Generate GitHub Stats
+        uses: anuraghazra/github-readme-stats@master
+        with:
+          username: Madhur984
+          theme: dark
+          show_icons: true
+          hide_border: true
+          output_path: assets/stats/github-stats.png
+
+      - name: Generate Top Languages
+        uses: anuraghazra/github-readme-stats@master
+        with:
+          username: Madhur984
+          layout: compact
+          theme: dark
+          hide_border: true
+          output_path: assets/stats/top-langs.png
+
+      - name: Generate Streak Stats
+        uses: DenverCoder1/github-readme-streak-stats@master
+        with:
+          username: Madhur984
+          theme: dark
+          hide_border: true
+          output_path: assets/stats/streak.png
+
+      - name: Commit images
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add assets/stats
+          git commit -m "Update GitHub stats images" || echo "No changes"
+          git push
